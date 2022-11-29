@@ -1,0 +1,95 @@
+    
+    .calculatrice {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(10, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        width: 100%;
+        height: 100vh;
+        }
+        
+        .pinkbouton{
+            height:100%;
+            width:100%;
+            background-color: #FF1493;
+            border-radius: 1.5em;
+            color: #F5FFFA;
+            cursor: pointer;
+
+        }
+
+        .purplebouton{
+            height:100%;
+            width:100%; 
+            background-color: #663399;
+           border-radius: 1.5em;
+           color: #F5FFFA;
+           cursor: pointer;
+        }
+        .fond { 
+            grid-area: 2 / 2 / 10 / 12; 
+            background-color: black;
+            border-radius: 1em;
+        }
+        .ecran { 
+            grid-area: 3 / 3 / 4 / 10; 
+            height: 100%;
+            width: 100%;
+            background-color: #F5FFFA;
+            border-radius: 1.5em ;
+            display: flex;
+            justify-content: flex-end;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .le_c { grid-area: 3 / 10 / 4 / 11;
+            
+        }
+        .bouton1 { grid-area: 5 / 3 / 6 / 5;
+        
+        }
+        .bouton2 { grid-area: 5 / 5 / 6 / 7; 
+        margin-left: 10px;
+        }
+        .bouton3 { grid-area: 5 / 7 / 6 / 9; 
+            margin-left: 10px;
+        }
+        .bouton4 { grid-area: 6 / 3 / 7 / 5; 
+            
+        }
+        .bouton5 { grid-area: 6 / 5 / 7 / 7; 
+            margin-left: 10px;
+        }
+        .bouton6 { grid-area: 6 / 7 / 7 / 9; 
+            margin-left: 10px;
+        }
+        .bouton7 { grid-area: 7 / 3 / 8 / 5; 
+        
+        }
+        .bouton8 { grid-area: 7 / 5 / 8 / 7;
+            margin-left: 10px;
+        }
+        .bouton9 { grid-area: 7 / 7 / 8 / 9;
+            margin-left: 10px;
+        }
+        .bouton_point { grid-area: 8 / 3 / 9 / 5; 
+        
+        }
+        .bouton0 { grid-area: 8 / 5 / 9 / 7; 
+            margin-left: 10px;
+        }
+        .bouton_egal { grid-area: 8 / 7 / 9 / 9; 
+            margin-left: 10px;
+        }
+        .bouton_diviser { grid-area: 5 / 10 / 6 / 11;
+        
+        }
+        .bouton_moins { grid-area: 6 / 10 / 7 / 11;
+        
+        }
+        .bouton_plus { grid-area: 7 / 10 / 8 / 11; 
+        
+        }
+        .bouton_multiplier { grid-area: 8 / 10 / 9 / 11; 
+        }
