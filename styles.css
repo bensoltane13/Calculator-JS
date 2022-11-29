@@ -93,3 +93,4 @@
         }
         .bouton_multiplier { grid-area: 8 / 10 / 9 / 11; 
         }
+        .bouton_pourcentage { grid-area: 4 / 8 / 5 / 9; }
